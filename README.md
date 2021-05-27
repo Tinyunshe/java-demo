@@ -7,3 +7,6 @@ src/main/java/io/alauda/demo/controller/DemoController.java
 
 ### Build of maven command
 $ mvn clean install -Dmaven.test.skip=true --settings settings.xml
+
+### How to access
+curl [IP_ADDRESS]:8080/demo
