@@ -1,4 +1,4 @@
-FROM alauda-docker.pkg.coding.net/sdev/lib/java:openjdk-8u212-alpine
+FROM tinyunshe/openjdk:8u212-alpine
 
 COPY target/*.jar /app/app.jar
 
